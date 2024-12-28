@@ -111,21 +111,86 @@ STR 6
 
 # Armor
 
+## Leather
+
+**Effects**
+
+- **Exhaust** - Gain `Evade 2`.
+
 ## Chainmail
+
+`Armor`
 
 **Effects**
 
 - **Exhaust** - Fortify 5
 
-# Item Modifiers
+# Magic Items
 
-## Poison
+## Item Modifiers
 
-Applies `Poison` on hit.
+### Freezing
 
-## Fortify #
+`Freeze 1`
+
+### Flaming
+
+`Burn 1`
+
+### Shocking
+
+`Shock 1`
+
+### Venemous
+
+Applies `Poison 1` on hit.
+
+Tags: `Prefix`, `Slash`
+
+### Heavy
+
+Adds `Wound #` on hit.
+
+Tags: `Weapon`
+
+### of Fortification
 
 Spend an action to apply # `Temporary Armor` to the item. The amount of Temporary Armor on the item can’t exceed #.
 
-## Armor #
+Tags: `Armor`
 
+### of Defense
+
+Gain `Armor #`.
+
+Tags: `Armor`
+
+# Monsters
+
+## Giant Rat
+
+|Stat | Value |
+|-------|---|
+| Level | 1 |
+| HP    | 2 |
+| Attack Bonus | 1 |
+
+**Attack**
+
+| 2-9 | 10 | 15 | 20 | 25+ |
+|:---:|:--:|:--:|:--:|:---:|
+|  2  | 4  | 6  | 8  | 10  |
+
+## Goblin
+
+|Stat | Value |
+|-------|---|
+| Level | 1 |
+| HP    | 3 |
+| Attack Bonus | 2 |
+
+**Attack**
+
+| 2-9 | 10 | 15 | 20 | 25+ |
+|:---:|:--:|:--:|:--:|:---:|
+|  3  | 6  | 9  | 12 | 15  |
